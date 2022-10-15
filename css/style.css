@@ -1,0 +1,201 @@
+/*
+    i can write here anything
+*/
+.parent{
+    width: 600px;
+    height: 600px;
+    background: red;
+    border: 10px solid black;
+    /*
+        i used margin two property
+        T/B L/R
+    */
+    margin: 150px auto;
+    position: relative;
+    animation-name: suraj;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes suraj{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+.common{
+    width: 300px;
+    height: 300px;
+}
+div.br1{
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+div.br2{
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.parent > .child1{
+    
+    background: green;
+    
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}
+.parent > .child2{
+    background: purple;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.child3{
+    background: orange;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.child4{
+    background: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.child5{
+    background: blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: right bottom;
+    transform: rotate(11deg);
+}
+.child6{
+    background: cadetblue;
+    transform: rotate(22deg);
+}
+.child7{
+    background: chocolate;
+    transform: rotate(33deg);
+}
+.child8{
+    background: greenyellow;
+    transform: rotate(44deg);
+}
+.child9{
+    background: darkmagenta;
+    transform: rotate(55deg);
+}
+.child10{
+    background: slategray;
+    transform: rotate(66deg);
+}
+.child11{
+    background: orange;
+    transform: rotate(77deg);
+}
+.child12{
+    background: magenta;
+    transform: rotate(88deg);
+}
+.child13{
+    background: chocolate;
+    transform: rotate(99deg);
+}
+.child14{
+    background: lightcoral;
+    transform: rotate(110deg);
+}
+.child15{
+    background: darkblue;
+    transform: rotate(121deg);
+}
+.child16{
+    background: maroon;
+    transform: rotate(132deg);
+}
+.child17{
+    background: springgreen;
+    transform: rotate(143deg);
+}
+.child18{
+    background: firebrick;
+    transform: rotate(154deg);
+}
+.child19{
+    background: silver;
+    transform: rotate(165deg);
+}
+.child20{
+    background: crimson;
+    transform: rotate(176deg);
+}
+.child21{
+    background: black;
+    transform: rotate(187deg);
+}
+.child22{
+    background: cornflowerblue;
+    transform: rotate(198deg);
+}
+.child23{
+    background: khaki;
+    transform: rotate(209deg);
+}
+.child24{
+    background: midnightblue;
+    transform: rotate(220deg);
+}
+.child25{
+    background: mediumturquoise;
+    transform: rotate(231deg);
+}
+.child26{
+    background: moccasin;
+    transform: rotate(242deg);
+}
+.child27{
+    background: navy;
+    transform: rotate(253deg);
+}
+.child28{
+    background: violet;
+    transform: rotate(264deg);
+}
+.child29{
+    background: palevioletred;
+    transform: rotate(275deg);
+}
+.child30{
+    background: peru;
+    transform: rotate(286deg);
+}
+.child31{
+    background: aqua;
+    transform: rotate(297deg);
+}
+.child32{
+    background: lightsteelblue;
+    transform: rotate(308deg);
+}
+.child33{
+    background: salmon;
+    transform: rotate(319deg);
+}
+.child34{
+    background: mediumvioletred;
+    transform: rotate(330deg);
+}
+.child35{
+    background: firebrick;
+    transform: rotate(341deg);
+}
+.child36{
+    background: darksalmon;
+    transform: rotate(352deg);
+}
